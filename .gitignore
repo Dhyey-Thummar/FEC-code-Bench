@@ -1,0 +1,5 @@
+# Remove test files
+*.mp4
+
+# pycache
+__pycache__/

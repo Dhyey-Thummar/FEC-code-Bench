@@ -85,7 +85,7 @@ def reassemble_file(blocks, block_size, file_name, file_length, block_num_size):
     file.truncate(file_length)
     file.seek(0)
     # write the reassembled file
-    output_file = file_name.split('.')[0] + "_reassembled." + file_name.split('.')[1]
+    output_file = file_name.split('.')[-2] + "_reassembled." + file_name.split('.')[-1]
     with open(output_file, 'wb') as f:
         f.write(file.read())
     return output_file

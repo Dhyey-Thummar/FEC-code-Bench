@@ -68,7 +68,7 @@ def receive_blocks_from_input(host, port):
 
     return blocks, block_size, file_name, file_length, block_num_size
 
-def send_blocks(blocks, host, port, file_name, file_length, block_size, block_num_size, num_blocks):
+def send_blocks_to_output(blocks, host, port, file_name, file_length, block_size, block_num_size, num_blocks):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     while True:
         try:
@@ -98,7 +98,7 @@ def send_blocks(blocks, host, port, file_name, file_length, block_size, block_nu
 def run_sim(host, receive_input_port, send_output_port):
     blocks, block_size, file_name, file_length, block_num_size = receive_blocks_from_input(host, receive_input_port)
     blocks = sim_channel(blocks)
-    send_blocks(blocks, host, send_output_port, file_name, file_length, block_size, block_num_size, len(blocks))
+    send_blocks_to_output(blocks, host, send_output_port, file_name, file_length, block_size, block_num_size, len(blocks))
 
 def sim_channel(blocks):
     # return blocks[::-1]
