@@ -2,6 +2,7 @@ import socket
 import sys
 import os
 import time
+from LTcode import lt
 
 BLOCK_NUM_SIZE = 4
 
@@ -49,7 +50,8 @@ def send_blocks_to_sim(blocks, host, port, file_name, file_length, block_size, b
     s.close()
 
 def encode_FEC(blocks):
-    # Add FEC here
+    filename = "pipeline.png"
+    blocks = lt.encode.encoder(filename, 8, 2067261, lt.sampler.DEFAULT_C, lt.sampler.DEFAULT_DELTA)
     return blocks
 
 if __name__ == '__main__':
