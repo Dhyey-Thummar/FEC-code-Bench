@@ -9,7 +9,7 @@ from LTcode.lt import encode, decode, sampler
 from struct import unpack
 
 def encode_FEC():
-    filename = "../test.mp4"
+    filename = "test.mp4"
     blocks = []
     with open(filename, 'rb') as f:
         for block in encode.encoder(f, 256, 2067261, sampler.DEFAULT_C, sampler.DEFAULT_DELTA):
@@ -78,6 +78,9 @@ def sim_channel(blocks, channel, probability, std):
 
 list_blocks = encode_FEC()
 print(len(list_blocks))
-sim_blocks = sim_channel(list_blocks, 0, 0.3, 1)
+sim_blocks = sim_channel(list_blocks, 2, 0.03, 1)
 print(len(sim_blocks))
 decode_FEC(sim_blocks)
+diff = os.system("diff test.mp4 output_test.mp4")
+if diff == 0:
+    print("Files are the same.")

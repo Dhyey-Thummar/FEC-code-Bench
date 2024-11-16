@@ -1,109 +1,12 @@
 import socket
-import sys
-import time
+import pickle
 import random
 import numpy as np
 import math
+import time
+import sys
 
-def receive_blocks_from_input(host, port):
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind((host, port))
-    s.listen(1)
-    print("Waiting for connection...")
-    
-    conn, addr = s.accept()
-    print("Connection established with:", addr)
-    
-    # Receive start message
-    start_msg = conn.recv(5).decode()
-    if start_msg != "START":
-        print("Error: Expected START message, got", start_msg)
-        conn.close()
-        return
-    
-    # Receive file metadata
-    print("Receiving file name and length...")
-    file_name = conn.recv(100).decode().strip('\0')
-    file_length = int.from_bytes(conn.recv(8), sys.byteorder)
-    block_size = int.from_bytes(conn.recv(8), sys.byteorder)
-    block_num_size = int.from_bytes(conn.recv(8), sys.byteorder)
-    num_blocks = int.from_bytes(conn.recv(8), sys.byteorder)
-    print(f"File Name: {file_name}")
-    print(f"File Length: {file_length} bytes")
-    print(f"Block Size: {block_size} bytes")
-    print(f"Block Num Size: {block_num_size} bytes")
-    print(f"Number of Blocks: {num_blocks}")
-    # Start receiving blocks
-    print("Receiving blocks...")
-    blocks = []
-    start_block_msg = conn.recv(10).decode()
-    if start_block_msg != "STARTBLOCK":
-        print("Error: Expected STARTBLOCK message, got", start_block_msg)
-        conn.close()
-        return
-
-    for i in range(num_blocks):
-        block = conn.recv(block_size)
-        if not block:
-            break
-        block_num = int.from_bytes(block[:block_num_size], sys.byteorder)
-        # print("Block: ", block_num, "data: ", block[:block_num_size+10])
-        blocks.append(block)
-
-    try: 
-        end_block_msg = conn.recv(8).decode()
-        if end_block_msg != 'ENDBLOCK':
-            print("Error: Expected ENDBLOCK message, got", end_block_msg)
-        else:
-            print("Received ENDBLOCK message.")
-        end_msg = conn.recv(3).decode()
-        if end_msg != 'END':
-            print("Error: Expected END message, got", end_msg)
-        else:
-            print("Received END message.")
-    except:
-        print("Error: Invalid end message.")
-    print("File transfer complete. Received", len(blocks), "blocks.")
-    
-    conn.close()
-    s.close()
-    print("Connection closed.")
-
-    return blocks, block_size, file_name, file_length, block_num_size
-
-def send_blocks_to_output(blocks, host, port, file_name, file_length, block_size, block_num_size, num_blocks):
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    while True:
-        try:
-            s.connect((host, port))
-            break
-        except ConnectionRefusedError:
-            print("Connection refused. Retrying...")
-            time.sleep(5)
-            continue
-    print("Sending file name and length...")
-    s.sendall("START".encode())
-    # truncate the file name to 100 bytes if it is too long, or pad with 0s if it is shorter
-    file_name = file_name.ljust(100, '\0')
-    s.sendall(file_name.encode())
-    s.sendall(file_length.to_bytes(8, sys.byteorder))
-    s.sendall(block_size.to_bytes(8, sys.byteorder))
-    s.sendall(block_num_size.to_bytes(8, sys.byteorder))
-    s.sendall(num_blocks.to_bytes(8, sys.byteorder))
-    print("Sending blocks...")
-    s.sendall("STARTBLOCK".encode())
-    for block in blocks:
-        s.sendall(block)
-    s.sendall("ENDBLOCK".encode())
-    s.sendall("END".encode())
-    s.close()
-
-def run_sim(host, receive_input_port, send_output_port, channel_param, probability):
-    blocks, block_size, file_name, file_length, block_num_size = receive_blocks_from_input(host, receive_input_port)
-    blocks = sim_channel(blocks, channel_param)
-    send_blocks_to_output(blocks, host, send_output_port, file_name, file_length, block_size, block_num_size, len(blocks))
-
-def sim_channel(blocks, channel, probability, std):
+def sim_channel(blocks, channel=0, probability=0, std=1):
     match channel:
         case 0:
             # No dropping
@@ -111,7 +14,7 @@ def sim_channel(blocks, channel, probability, std):
             return blocks
         case 1:
             # No dropping but only rearranging
-            seed = random.randint(50)
+            seed = random.randint(0, 50)
             k = 0
             random.seed(seed)
             for i in range(50):
@@ -122,7 +25,7 @@ def sim_channel(blocks, channel, probability, std):
                     tmp = blocks[x]
                     blocks[x] = blocks[y]
                     blocks[y] = tmp
-            print("Rearranging ", k, "blocks.")
+            print("Rearranging", k, "blocks.")
             return blocks
         case 2:
             # Dropping with probability BEC
@@ -132,7 +35,7 @@ def sim_channel(blocks, channel, probability, std):
                 if (random.uniform(0, 1) >= probability):
                     k = k + 1
                     new_blocks.append(blocks[b])
-            print("Dropping ", len(blocks) - k, "blocks.")
+            print("Dropping", len(blocks) - k, "blocks.")
             return new_blocks
         case 3:
             # Dropping with Additive White Gaussian Noise
@@ -143,7 +46,7 @@ def sim_channel(blocks, channel, probability, std):
                 if abs(prob_norm_function[b]) < std:
                     k = k + 1
                     new_blocks.append(blocks[b])
-            print("Dropping ", len(blocks) - k, "blocks.")
+            print("Dropping", len(blocks) - k, "blocks.")
             return new_blocks
         case 4:
             # Dropping using the Rayleigh fading channel
@@ -156,15 +59,62 @@ def sim_channel(blocks, channel, probability, std):
                     if abs(1 - abs(multiplicative_norm[b])) < 0.5:
                         k = k + 1
                         new_blocks.append(b)
-            print("Dropping ", len(blocks) - k, "blocks.")
+            print("Dropping", len(blocks) - k, "blocks.")
             return new_blocks
 
-if __name__ == '__main__':
-    channel_param = int(sys.argv[0])
-    channel_prob = int(sys.argv[1])
-    assert(channel_param >= 0)
-    assert(channel_param <= 4)
+def receive_data(sock):
+    data_size = int.from_bytes(sock.recv(8), 'big')  # Receive data size
+    data = b""
+    while len(data) < data_size:
+        packet = sock.recv(4096)
+        if not packet:
+            break
+        data += packet
+    return pickle.loads(data)
+
+def send_data(sock, data):
+    serialized_data = pickle.dumps(data)
+    sock.sendall(len(serialized_data).to_bytes(8, 'big'))  # Send data size first
+    sock.sendall(serialized_data)  # Send the actual data
+
+def main():
     host = 'localhost'
-    receive_input_port = 12345
-    send_output_port = 12346
-    run_sim(host, receive_input_port, send_output_port, channel_param, channel_prob)
+    port_receive = 8000
+    port_send = 8001
+    try :
+        channel = int(sys.argv[1])
+        probability = float(sys.argv[2])
+        std = float(sys.argv[3])
+    except :
+        print("Usage: python3 sim.py <channel> <probability> <std>")
+        sys.exit(1)
+
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s_recv:
+        s_recv.bind((host, port_receive))
+        s_recv.listen(1)
+        print("Waiting for input.py...")
+        conn, addr = s_recv.accept()
+        with conn:
+            blocks = receive_data(conn)
+            print(f"Received {len(blocks)} blocks from input.py.")
+
+    start = time.time()
+    sim_blocks = sim_channel(blocks, channel, probability, std)
+    end = time.time()
+    print(f"After simulation: {len(sim_blocks)} blocks. Time taken (sim): {end - start:.2f}s")
+
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s_send:
+        while True:
+            try:
+                s_send.connect((host, port_send))
+                print("Connected.")
+                break
+            except :
+                print("Connection refused. Retrying...")
+                time.sleep(5)
+                continue
+        send_data(s_send, sim_blocks)
+        print("Simulated blocks sent to output.py.")
+
+if __name__ == "__main__":
+    main()

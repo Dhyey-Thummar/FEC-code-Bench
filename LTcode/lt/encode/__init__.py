@@ -14,7 +14,7 @@ def _split_file(f, blocksize):
     return len(f_bytes), blocks
 
 
-def encoder(f, blocksize, seed=None, c=sampler.DEFAULT_C, delta=sampler.DEFAULT_DELTA):
+def encoder(f, blocksize, seed=None, c=sampler.DEFAULT_C, delta=sampler.DEFAULT_DELTA, max_blocks=10000):
     """Generates an infinite sequence of blocks to transmit
     to the receiver
     """
@@ -34,7 +34,7 @@ def encoder(f, blocksize, seed=None, c=sampler.DEFAULT_C, delta=sampler.DEFAULT_
     i = 0
     # block generation loop
     while True:
-        if i == 100000:
+        if i == max_blocks:
             break
         blockseed, d, ix_samples = prng.get_src_blocks()
         block_data = 0
