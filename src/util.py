@@ -34,4 +34,3 @@ def int_div_ceil(num: int, denom: int) -> int:
     assert denom != 0, "Denominator must not be zero"
     result = (num // denom + 1) if num % denom != 0 else (num // denom)
     return result & 0xFFFF
-

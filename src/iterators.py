@@ -1,40 +1,9 @@
 from typing import List, Optional, Tuple, Iterator
+from octet import Octet
+from sparse_vec import SparseBinaryVec
 
-class Octet:
-    @staticmethod
-    def zero() -> 'Octet':
-        return Octet(0)
-
-    @staticmethod
-    def one() -> 'Octet':
-        return Octet(1)
-
-    def __init__(self, value: int):
-        self.value = value
-
-    def __repr__(self):
-        return f"Octet({self.value})"
-
-
-class DenseBinaryMatrix:
-    @staticmethod
-    def select_mask(bit_index: int) -> int:
-        return 1 << bit_index
-
-
-class SparseBinaryVec:
-    def __init__(self, elements: List[Tuple[int, Octet]]):
-        self.elements = elements
-
-    def keys_values(self):
-        return self.elements
-
-    def get_by_raw_index(self, index: int) -> Tuple[int, Octet]:
-        return self.elements[index]
-
-    def len(self):
-        return len(self.elements)
-
+def select_mask(bit: int):
+    return 1 << bit
 
 class ClonedOctetIter:
     def __init__(self, sparse: bool, end_col: int, dense_elements: Optional[List[int]] = None,
@@ -63,7 +32,7 @@ class ClonedOctetIter:
             raise StopIteration
         else:
             old_index = self.dense_index
-            value = Octet.zero() if self.dense_elements[self.dense_word_index] & DenseBinaryMatrix.select_mask(self.dense_bit_index) == 0 else Octet.one()
+            value = Octet.zero() if self.dense_elements[self.dense_word_index] & select_mask(self.dense_bit_index) == 0 else Octet.one()
             self.dense_index += 1
             self.dense_bit_index += 1
             if self.dense_bit_index == 64:
@@ -135,7 +104,7 @@ class OctetIter:
         else:
             old_index = self.dense_index
             self.dense_index += 1
-            value = Octet.zero() if self.dense_elements[self.dense_word_index] & DenseBinaryMatrix.select_mask(self.dense_bit_index) == 0 else Octet.one()
+            value = Octet.zero() if self.dense_elements[self.dense_word_index] & select_mask(self.dense_bit_index) == 0 else Octet.one()
             self.dense_bit_index += 1
             if self.dense_bit_index == 64:
                 self.dense_bit_index = 0

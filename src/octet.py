@@ -145,6 +145,7 @@ class Octet:
         return Octet(OCT_EXP[255 + log_u - log_v])
     
     def __eq__(self, other: 'Octet') -> bool:
+        assert isinstance(other, Octet)
         return self.value == other.value
 
 if __name__ == '__main__':

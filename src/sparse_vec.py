@@ -1,24 +1,20 @@
 from typing import List, Optional, Callable, Tuple
-from bisect import bisect_left, bisect_right
-
-class Octet:
-    """Placeholder Octet class to simulate Octet behavior from the original Rust code.
-    You would replace this with the actual logic."""
-    @staticmethod
-    def one() -> 'Octet':
-        return Octet()
-
-    @staticmethod
-    def zero() -> 'Octet':
-        return Octet()
+from bisect import bisect_left
+from octet import Octet
 
 class SparseBinaryVec:
     def __init__(self, capacity: int):
         assert capacity < 65536, "Capacity must be less than 65536"
         self.elements: List[int] = []
 
+    @staticmethod
+    def with_capacity(capacity):
+        assert capacity < 65536, "Capacity must be less than 65536"
+        return SparseBinaryVec(capacity)
+
     def key_to_internal_index(self, i: int) -> int:
         """Returns index of key or where it can be inserted."""
+        assert i < 2**16
         index = bisect_left(self.elements, i)
         if index < len(self.elements) and self.elements[index] == i:
             return index
@@ -67,18 +63,18 @@ class SparseBinaryVec:
         return column_added
 
     def remove(self, i: int) -> Optional[Octet]:
-        index = self.key_to_internal_index(i)
+        index = self.key_to_internal_index(i & 0xFFFF)
         if index >= 0:
             self.elements.pop(index)
             return Octet.one()
         return None
 
     def retain(self, predicate: Callable[[Tuple[int, Octet]], bool]):
-        self.elements = [entry for entry in self.elements if predicate((entry, Octet.one()))]
+        self.elements = [entry for entry in self.elements if predicate(entry, Octet.one())]
 
     def get(self, i: int) -> Optional[Octet]:
-        index = self.key_to_internal_index(i)
-        return Octet.one() if index >= 0 else None
+        index = self.key_to_internal_index(i & 0xFFFF)
+        return Octet.one() if index >= 0 else Octet.zero()
 
     def keys_values(self):
         return ((entry, Octet.one()) for entry in self.elements)
@@ -88,6 +84,6 @@ class SparseBinaryVec:
         if value == Octet.zero():
             self.remove(i)
         else:
-            index = self.key_to_internal_index(i)
+            index = self.key_to_internal_index(i & 0xFFFF)
             if index < 0:
                 self.elements.insert(-1 - index, i)

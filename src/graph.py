@@ -1,31 +1,7 @@
 from typing import Dict, List
+from arraymap import U16ArrayMap
 
 NO_CONNECTED_COMPONENT = 0
-
-class U16ArrayMap:
-    def __init__(self, start_key: int, end_key: int):
-        self.offset = start_key
-        self.elements = [0] * (end_key - start_key)
-
-    def get(self, key: int) -> int:
-        return self.elements[key - self.offset]
-
-    def insert(self, key: int, value: int):
-        self.elements[key - self.offset] = value
-
-    def increment(self, key: int):
-        self.elements[key - self.offset] += 1
-
-    def decrement(self, key: int):
-        self.elements[key - self.offset] -= 1
-
-    def swap(self, key1: int, key2: int):
-        self.elements[key1 - self.offset], self.elements[key2 - self.offset] = self.elements[key2 - self.offset], self.elements[key1 - self.offset]
-
-    def keys(self) -> range:
-        return range(self.offset, self.offset + len(self.elements))
-
-
 class ConnectedComponentGraph:
     def __init__(self, max_nodes: int):
         first_connected_component = NO_CONNECTED_COMPONENT + 1
