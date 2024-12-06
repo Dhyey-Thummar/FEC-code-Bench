@@ -165,13 +165,15 @@ def block_from_bytes(bts):
     return next(read_blocks(io.BytesIO(bts)))
     
 def decode(in_stream, out_stream, **kwargs):
-
+    count = 0
     decoder = LtDecoder(**kwargs)
 
     # Begin forever loop
     for lt_block in read_blocks(in_stream):
         decoder.consume_block(lt_block)
+        count += 1
         if decoder.is_done():
+            # print("Decoded after", count, "blocks.")
             break
     
     if decoder.is_done() == False:
