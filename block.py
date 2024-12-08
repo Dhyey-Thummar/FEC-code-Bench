@@ -34,6 +34,8 @@ class Block:
                         res = b''
                         for i in range(len(a.data)):
                             res += (self.data[i] ^ a.data[i]).to_bytes(1, byteorder='big')
+                        for i in range(len(a.data), len(self.data)):
+                            res += self.data[i].to_bytes(1, byteorder='big')
                         self.data = res
                     else:
                         for i in range(len(a.data)):

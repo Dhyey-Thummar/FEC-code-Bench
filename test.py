@@ -3,14 +3,14 @@ from raptor import *
 from constants import *
 from luby import *
 
-filename = "pipeline.png"
+filename = "test5.io"
 outname = "regen_" + filename
 
 f = open(filename, "rb")
 message = f.read()
 FILE_SIZE = len(message)
-BLOCK_SIZE = 5000
-NUM_BLOCKS = FILE_SIZE // BLOCK_SIZE
+BLOCK_SIZE = 8192
+NUM_BLOCKS = (FILE_SIZE + BLOCK_SIZE - 1) // BLOCK_SIZE
 OVERHEAD = 10
 
 print("Working with: " + filename)

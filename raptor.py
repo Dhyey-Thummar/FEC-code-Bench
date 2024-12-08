@@ -103,7 +103,8 @@ class RaptorCodec:
         Initialize a new RaptorCodec object with the specified number of source blocks and symbol alignment size.
         """
         self.source_blocks = source_blocks
-        self.SymbolAlignmentSize = alignment_size
+        # Symbol size must be within [4, 8192]
+        self.symbol_size = alignment_size
 
     def generate_intermediate_blocks(self, message, num_blocks):
         """
