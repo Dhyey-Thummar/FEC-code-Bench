@@ -3,7 +3,7 @@ The repository includes a complete pipeline built with python to simulate packet
 
 It also contains benchmarking scripts that allow for benchmarking LT-codes, Raptor Codes, and Implement the HSC-Encoding Algorithm (with bencmarking scripts on videos)
 
-The project report is also included as `CS_7260_Project_Proposal.pdf`.
+The project report is also included as `CS7260_Final_Report.pdf`.
 
 # Step 1: Start the input script
 ```sh
