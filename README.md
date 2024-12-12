@@ -1,5 +1,6 @@
 # FEC-code-Bench
 The repository includes a complete pipeline built with python to simulate packet loss, implement error correction, and assess recovery performance.
+It also contains benchmarking scripts that allow for benchmarking LT-codes, Raptor Codes, and Implement the HSC-Encoding Algorithm (with bencmarking scripts on videos)
 
 
 # Step 1: Start the input script
