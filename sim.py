@@ -6,6 +6,14 @@ import math
 import time
 import sys
 
+'''
+Channel Simulation with the following cases:-
+0: No dropping
+1: No dropping but only rearranging
+2: BEC Channel with user-defined drop probability and standard deviation
+3: Channel with Additive White Gaussian Noise (AWGN) with user-defined drop probability and standard deviation
+4: Rayleigh Fading Channel with user-defined drop probability and standard deviation
+'''
 def sim_channel(blocks, channel=0, probability=0, std=1):
     match channel:
         case 0:

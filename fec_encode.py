@@ -6,76 +6,19 @@ import random
 import numpy as np
 import math
 from LTcode.lt import encode, decode, sampler
-from Raptorcode.raptor import RaptorCodec, RaptorDecoder
-from Raptorcode.luby import encode_lt_blocks, LubyCodec
-from Raptorcode.utils import soliton_distribution
 from struct import unpack
 import csv
 
-def encode_FEC(filename, blocksize=256, max_blocks=10000, code="LT"):
+def encode_FEC(filename, blocksize=256, max_blocks=10000):
     blocks = []
     with open(filename, 'rb') as f:
-        match code:
-            case "LT":
-                for block in encode.encoder(f, blocksize, 2067261, sampler.DEFAULT_C, sampler.DEFAULT_DELTA, max_blocks=max_blocks):
-                    blocks.append(block)
-                
-                return blocks, None
-            case "Raptor":
-                message = f.read()
-                message_copy = message[:]
-                num_blocks = (len(message) + blocksize - 1) // blocksize
+        for block in encode.encoder(f, blocksize, 2067261, sampler.DEFAULT_C, sampler.DEFAULT_DELTA, max_blocks=max_blocks):
+            blocks.append(block)
+    return blocks
 
-                codec = RaptorCodec(num_blocks, blocksize)
-                ids = [random.randint(0, 60000) for _ in range(max_blocks)]
-                for block in encode_lt_blocks(message_copy, ids, codec):
-                    blocks.append(block)
-                
-                return blocks, {
-                    "num_blocks": num_blocks,
-                    "blocksize": blocksize,
-                    "msgLen": len(message)
-                }
-            case "Luby":
-                message = f.read()
-                message_copy = message[:]
-                num_blocks = (len(message) + blocksize - 1) // blocksize
-
-                codec = LubyCodec(num_blocks, random.Random(200), soliton_distribution(4))
-                ids = [random.randint(0, 60000) for _ in range(max_blocks)]
-                for block in encode_lt_blocks(message_copy, ids, codec):
-                    blocks.append(block)
-                
-                return blocks, {
-                    "num_blocks": num_blocks,
-                    "seed": 200,
-                    "soliton_seed": 4,
-                    "msgLen": len(message)
-                }
-
-def decode_FEC(blocks, output_filename, code="LT", file_params=None):
-    match code:
-        case "LT":
-            with open(output_filename, 'wb') as out_f:
-                decode.decode(blocks, out_f)
-        case "Raptor":
-            assert file_params is not None
-            codec = RaptorCodec(file_params["num_blocks"], file_params["blocksize"])
-            decoder = RaptorDecoder(codec, file_params["msgLen"])
-            decoder.add_blocks(blocks)
-            if decoder.matrix.determined():
-                out = decoder.decode()
-                with open(output_filename, 'wb') as out_f:
-                    out_f.write(out)
-        case "Luby":
-            assert file_params is not None
-            codec = LubyCodec(file_params["num_blocks"], random.Random(file_params["seed"]), soliton_distribution(file_params["soliton_seed"]))
-            decoder = codec.new_decoder(file_params["msgLen"])
-            decoder.add_blocks(blocks)
-            if decoder.matrix.determined():
-                out = decoder.decode()
-                with open(output_filename, 'wb') as out_f:
-                    out_f.write(out)
+def decode_FEC(blocks, output_filename):
+    with open(output_filename, 'wb') as out_f:
+        decode.decode(blocks, out_f)
 
 def sim_channel(blocks, channel, probability, std):
     match channel:
@@ -89,8 +32,10 @@ def sim_channel(blocks, channel, probability, std):
             k = 0
             random.seed(seed)
             for i in range(min(len(blocks)//4, 1000)):
-                x = random.randint(0, len(blocks))
-                y = random.randint(0, len(blocks))
+                x = random.randint(0, len(blocks) - 1)
+                y = random.randint(0, len(blocks) - 1)
+                # print("x:", x)
+                # print("y:", y)
                 if x != y:
                     k = k + 1
                     tmp = blocks[x]
@@ -134,47 +79,34 @@ def sim_channel(blocks, channel, probability, std):
             return new_blocks
 
 
-def test_file(file_name, output_name, block_size, repetitions, max_blocks, code):
+def test_file(file_name, output_name, block_size, repetitions, max_blocks):
     encode_times = []
     decode_times = []
     filesize = os.path.getsize(file_name)
     
-    print(f'Testing file: {file_name}')
     for _ in range(repetitions):
-        print(f'Repetition: {_}')
-        ENCODING = False
-        DECODING = False
-        try:
-            # Encode
-            start1 = time.time()
-            blocks, file_params = encode_FEC(file_name, block_size, max_blocks, code=code)
-            end1 = time.time()
-            encode_times.append(end1 - start1)
-            ENCODING = True
+        # Encode
+        start1 = time.time()
+        blocks = encode_FEC(file_name, block_size, max_blocks)
+        end1 = time.time()
+        encode_times.append(end1 - start1)
+        
+        start3 = time.time()
+        blocks = sim_channel(blocks, 2, 0.5, 1)
+        end3 = time.time()
 
-            start3 = time.time()
-            blocks = sim_channel(blocks, 2, 0.5, 1)
-            end3 = time.time()
-
-            # Decode
-            start2 = time.time()
-            decode_FEC(blocks, output_name, code=code, file_params=file_params)
-            end2 = time.time()
-            decode_times.append(end2 - start2)
-            DECODING = True
-            
-            # Ensure files are the same
-            if os.system(f"diff {file_name} {output_name}") != 0:
-                # raise ValueError(f"Files {file_name} and {output_name} are different after encoding and decoding.")
-                print(f"Files {file_name} and {output_name} are different after encoding and decoding.")
-                return None, None
-        except:
-            print(f'Repetition {_} failed')
-            if not ENCODING:
-                encode_times.append(0)
-            if not DECODING:
-                decode_times.append(0)
-
+        # Decode
+        start2 = time.time()
+        decode_FEC(blocks, output_name)
+        end2 = time.time()
+        decode_times.append(end2 - start2)
+        
+        # Ensure files are the same
+        if os.system(f"diff {file_name} {output_name}") != 0:
+            # raise ValueError(f"Files {file_name} and {output_name} are different after encoding and decoding.")
+            print(f"Files {file_name} and {output_name} are different after encoding and decoding.")
+            return None, None
+    
     # Calculate average times
     avg_encode_time = sum(encode_times) / repetitions
     avg_decode_time = sum(decode_times) / repetitions
@@ -201,7 +133,7 @@ def main():
         for file, output_file in zip(files, output_files):
             for max_block in max_blocks:
                 for block_size in block_sizes:
-                    avg_encode_time, avg_decode_time = test_file(file, output_file, block_size, repetitions, max_block, code="Luby")
+                    avg_encode_time, avg_decode_time = test_file(file, output_file, block_size, repetitions, max_block)
                     print(f"File: {file}, Num Blocks: {max_block}, Block Size: {block_size}, Avg Encode Time: {avg_encode_time}, Avg Decode Time: {avg_decode_time}")
                     writer.writerow([file, max_block, avg_encode_time, avg_decode_time])
 

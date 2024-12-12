@@ -1,0 +1,4404 @@
+All videos: ['videos/input_video_3.mp4']
+All FPS: [15, 25, 35, 45]
+All thresholds: [0.002, 0.004, 0.006, 0.008, 0.01]
+All channels: [0, 2, 3, 4]
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev LSC frames: 4, new LSC frames: 4
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev frames: 124, new frames: 124
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev LSC frames: 4, new LSC frames: 2
+Dropped LSC frames: 2
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 122
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev frames: 124, new frames: 61
+Dropped frames: 63
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 61
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev LSC frames: 4, new LSC frames: 4
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev frames: 124, new frames: 83
+Dropped frames: 41
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 83
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev LSC frames: 4, new LSC frames: 2
+Dropped LSC frames: 2
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 122
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.002  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 4
+High scene change frames: 120
+---------------------------------------------------
+Length of LSC frames: 4
+Length of HSC frames: 120
+---------------------------------------------------
+prev frames: 124, new frames: 34
+Dropped frames: 90
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 120
+    Low Scene Change frames: 4
+After Dropping: 
+    Final frames: 34
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev LSC frames: 8, new LSC frames: 8
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev frames: 124, new frames: 124
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev LSC frames: 8, new LSC frames: 7
+Dropped LSC frames: 1
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 123
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev frames: 124, new frames: 66
+Dropped frames: 58
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 66
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev LSC frames: 8, new LSC frames: 5
+Dropped LSC frames: 3
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 121
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev frames: 124, new frames: 79
+Dropped frames: 45
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 79
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev LSC frames: 8, new LSC frames: 2
+Dropped LSC frames: 6
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 118
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.004  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 8
+High scene change frames: 116
+---------------------------------------------------
+Length of LSC frames: 8
+Length of HSC frames: 116
+---------------------------------------------------
+prev frames: 124, new frames: 34
+Dropped frames: 90
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 116
+    Low Scene Change frames: 8
+After Dropping: 
+    Final frames: 34
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev LSC frames: 13, new LSC frames: 13
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev frames: 124, new frames: 124
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev LSC frames: 13, new LSC frames: 3
+Dropped LSC frames: 10
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 114
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev frames: 124, new frames: 63
+Dropped frames: 61
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 63
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev LSC frames: 13, new LSC frames: 12
+Dropped LSC frames: 1
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 123
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev frames: 124, new frames: 81
+Dropped frames: 43
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 81
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev LSC frames: 13, new LSC frames: 2
+Dropped LSC frames: 11
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 113
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.006  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 13
+High scene change frames: 111
+---------------------------------------------------
+Length of LSC frames: 13
+Length of HSC frames: 111
+---------------------------------------------------
+prev frames: 124, new frames: 30
+Dropped frames: 94
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 111
+    Low Scene Change frames: 13
+After Dropping: 
+    Final frames: 30
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev LSC frames: 14, new LSC frames: 14
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev frames: 124, new frames: 124
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev LSC frames: 14, new LSC frames: 7
+Dropped LSC frames: 7
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 117
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev frames: 124, new frames: 70
+Dropped frames: 54
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 70
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev LSC frames: 14, new LSC frames: 9
+Dropped LSC frames: 5
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 119
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev frames: 124, new frames: 82
+Dropped frames: 42
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 82
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev LSC frames: 14, new LSC frames: 4
+Dropped LSC frames: 10
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 114
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.008  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 14
+High scene change frames: 110
+---------------------------------------------------
+Length of LSC frames: 14
+Length of HSC frames: 110
+---------------------------------------------------
+prev frames: 124, new frames: 37
+Dropped frames: 87
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 110
+    Low Scene Change frames: 14
+After Dropping: 
+    Final frames: 37
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev LSC frames: 22, new LSC frames: 22
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev frames: 124, new frames: 124
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev LSC frames: 22, new LSC frames: 12
+Dropped LSC frames: 10
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 114
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev frames: 124, new frames: 65
+Dropped frames: 59
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 65
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev LSC frames: 22, new LSC frames: 14
+Dropped LSC frames: 8
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 116
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev frames: 124, new frames: 78
+Dropped frames: 46
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 78
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 124
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev LSC frames: 22, new LSC frames: 2
+Dropped LSC frames: 20
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 104
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 15  Threshold: 0.01  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 124
+Low scene change frames: 22
+High scene change frames: 102
+---------------------------------------------------
+Length of LSC frames: 22
+Length of HSC frames: 102
+---------------------------------------------------
+prev frames: 124, new frames: 31
+Dropped frames: 93
+---------------------------------------------------
+Total frames: 124
+Before Dropping: 
+    High Scene Change frames: 102
+    Low Scene Change frames: 22
+After Dropping: 
+    Final frames: 31
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev LSC frames: 25, new LSC frames: 25
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev frames: 207, new frames: 207
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev LSC frames: 25, new LSC frames: 16
+Dropped LSC frames: 9
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 198
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev frames: 207, new frames: 105
+Dropped frames: 102
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 105
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev LSC frames: 25, new LSC frames: 18
+Dropped LSC frames: 7
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 200
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev frames: 207, new frames: 147
+Dropped frames: 60
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 147
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev LSC frames: 25, new LSC frames: 5
+Dropped LSC frames: 20
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 187
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.002  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 25
+High scene change frames: 182
+---------------------------------------------------
+Length of LSC frames: 25
+Length of HSC frames: 182
+---------------------------------------------------
+prev frames: 207, new frames: 72
+Dropped frames: 135
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 182
+    Low Scene Change frames: 25
+After Dropping: 
+    Final frames: 72
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 50, new LSC frames: 50
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 207, new frames: 207
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 50, new LSC frames: 25
+Dropped LSC frames: 25
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 182
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 207, new frames: 104
+Dropped frames: 103
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 104
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 50, new LSC frames: 36
+Dropped LSC frames: 14
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 193
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 207, new frames: 133
+Dropped frames: 74
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 133
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 50, new LSC frames: 21
+Dropped LSC frames: 29
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 178
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.004  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 50
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 50
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 207, new frames: 56
+Dropped frames: 151
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 50
+After Dropping: 
+    Final frames: 56
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev LSC frames: 67, new LSC frames: 67
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev frames: 207, new frames: 207
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev LSC frames: 67, new LSC frames: 31
+Dropped LSC frames: 36
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 171
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev frames: 207, new frames: 99
+Dropped frames: 108
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 99
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev LSC frames: 67, new LSC frames: 48
+Dropped LSC frames: 19
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 188
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev frames: 207, new frames: 136
+Dropped frames: 71
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 136
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev LSC frames: 67, new LSC frames: 20
+Dropped LSC frames: 47
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 160
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.006  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 67
+High scene change frames: 140
+---------------------------------------------------
+Length of LSC frames: 67
+Length of HSC frames: 140
+---------------------------------------------------
+prev frames: 207, new frames: 55
+Dropped frames: 152
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 140
+    Low Scene Change frames: 67
+After Dropping: 
+    Final frames: 55
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev LSC frames: 82, new LSC frames: 82
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev frames: 207, new frames: 207
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev LSC frames: 82, new LSC frames: 46
+Dropped LSC frames: 36
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 171
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev frames: 207, new frames: 101
+Dropped frames: 106
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 101
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev LSC frames: 82, new LSC frames: 58
+Dropped LSC frames: 24
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 183
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev frames: 207, new frames: 144
+Dropped frames: 63
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 144
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev LSC frames: 82, new LSC frames: 29
+Dropped LSC frames: 53
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 154
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.008  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 82
+High scene change frames: 125
+---------------------------------------------------
+Length of LSC frames: 82
+Length of HSC frames: 125
+---------------------------------------------------
+prev frames: 207, new frames: 61
+Dropped frames: 146
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 125
+    Low Scene Change frames: 82
+After Dropping: 
+    Final frames: 61
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev LSC frames: 94, new LSC frames: 94
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev frames: 207, new frames: 207
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev LSC frames: 94, new LSC frames: 48
+Dropped LSC frames: 46
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 161
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev frames: 207, new frames: 104
+Dropped frames: 103
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 104
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev LSC frames: 94, new LSC frames: 67
+Dropped LSC frames: 27
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 180
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev frames: 207, new frames: 150
+Dropped frames: 57
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 150
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 207
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev LSC frames: 94, new LSC frames: 26
+Dropped LSC frames: 68
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 139
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 25  Threshold: 0.01  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 207
+Low scene change frames: 94
+High scene change frames: 113
+---------------------------------------------------
+Length of LSC frames: 94
+Length of HSC frames: 113
+---------------------------------------------------
+prev frames: 207, new frames: 59
+Dropped frames: 148
+---------------------------------------------------
+Total frames: 207
+Before Dropping: 
+    High Scene Change frames: 113
+    Low Scene Change frames: 94
+After Dropping: 
+    Final frames: 59
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev LSC frames: 97, new LSC frames: 97
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev frames: 290, new frames: 290
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev LSC frames: 97, new LSC frames: 51
+Dropped LSC frames: 46
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 244
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev frames: 290, new frames: 138
+Dropped frames: 152
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 138
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev LSC frames: 97, new LSC frames: 67
+Dropped LSC frames: 30
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 260
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev frames: 290, new frames: 202
+Dropped frames: 88
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 202
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev LSC frames: 97, new LSC frames: 33
+Dropped LSC frames: 64
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 226
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.002  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 97
+High scene change frames: 193
+---------------------------------------------------
+Length of LSC frames: 97
+Length of HSC frames: 193
+---------------------------------------------------
+prev frames: 290, new frames: 72
+Dropped frames: 218
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 193
+    Low Scene Change frames: 97
+After Dropping: 
+    Final frames: 72
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev LSC frames: 111, new LSC frames: 111
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev frames: 290, new frames: 290
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev LSC frames: 111, new LSC frames: 55
+Dropped LSC frames: 56
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 234
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev frames: 290, new frames: 151
+Dropped frames: 139
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 151
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev LSC frames: 111, new LSC frames: 85
+Dropped LSC frames: 26
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 264
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev frames: 290, new frames: 201
+Dropped frames: 89
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 201
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev LSC frames: 111, new LSC frames: 29
+Dropped LSC frames: 82
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 208
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.004  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 111
+High scene change frames: 179
+---------------------------------------------------
+Length of LSC frames: 111
+Length of HSC frames: 179
+---------------------------------------------------
+prev frames: 290, new frames: 94
+Dropped frames: 196
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 179
+    Low Scene Change frames: 111
+After Dropping: 
+    Final frames: 94
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev LSC frames: 123, new LSC frames: 123
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev frames: 290, new frames: 290
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev LSC frames: 123, new LSC frames: 65
+Dropped LSC frames: 58
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 232
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev frames: 290, new frames: 145
+Dropped frames: 145
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 145
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev LSC frames: 123, new LSC frames: 74
+Dropped LSC frames: 49
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 241
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev frames: 290, new frames: 194
+Dropped frames: 96
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 194
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev LSC frames: 123, new LSC frames: 34
+Dropped LSC frames: 89
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 201
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.006  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 123
+High scene change frames: 167
+---------------------------------------------------
+Length of LSC frames: 123
+Length of HSC frames: 167
+---------------------------------------------------
+prev frames: 290, new frames: 87
+Dropped frames: 203
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 167
+    Low Scene Change frames: 123
+After Dropping: 
+    Final frames: 87
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 133, new LSC frames: 133
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 290, new frames: 290
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 133, new LSC frames: 58
+Dropped LSC frames: 75
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 215
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 290, new frames: 148
+Dropped frames: 142
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 148
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 133, new LSC frames: 87
+Dropped LSC frames: 46
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 244
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 290, new frames: 209
+Dropped frames: 81
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 209
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev LSC frames: 133, new LSC frames: 42
+Dropped LSC frames: 91
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 199
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.008  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 133
+High scene change frames: 157
+---------------------------------------------------
+Length of LSC frames: 133
+Length of HSC frames: 157
+---------------------------------------------------
+prev frames: 290, new frames: 86
+Dropped frames: 204
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 157
+    Low Scene Change frames: 133
+After Dropping: 
+    Final frames: 86
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev LSC frames: 140, new LSC frames: 140
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev frames: 290, new frames: 290
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev LSC frames: 140, new LSC frames: 73
+Dropped LSC frames: 67
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 223
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev frames: 290, new frames: 147
+Dropped frames: 143
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 147
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev LSC frames: 140, new LSC frames: 99
+Dropped LSC frames: 41
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 249
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev frames: 290, new frames: 200
+Dropped frames: 90
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 200
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev LSC frames: 140, new LSC frames: 45
+Dropped LSC frames: 95
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 195
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 35  Threshold: 0.01  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 290
+Low scene change frames: 140
+High scene change frames: 150
+---------------------------------------------------
+Length of LSC frames: 140
+Length of HSC frames: 150
+---------------------------------------------------
+prev frames: 290, new frames: 96
+Dropped frames: 194
+---------------------------------------------------
+Total frames: 290
+Before Dropping: 
+    High Scene Change frames: 150
+    Low Scene Change frames: 140
+After Dropping: 
+    Final frames: 96
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev LSC frames: 171, new LSC frames: 171
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev frames: 373, new frames: 373
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev LSC frames: 171, new LSC frames: 88
+Dropped LSC frames: 83
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 290
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev frames: 373, new frames: 188
+Dropped frames: 185
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 188
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev LSC frames: 171, new LSC frames: 118
+Dropped LSC frames: 53
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 320
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev frames: 373, new frames: 262
+Dropped frames: 111
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 262
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev LSC frames: 171, new LSC frames: 52
+Dropped LSC frames: 119
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 254
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.002  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 171
+High scene change frames: 202
+---------------------------------------------------
+Length of LSC frames: 171
+Length of HSC frames: 202
+---------------------------------------------------
+prev frames: 373, new frames: 108
+Dropped frames: 265
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 202
+    Low Scene Change frames: 171
+After Dropping: 
+    Final frames: 108
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev LSC frames: 173, new LSC frames: 173
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev frames: 373, new frames: 373
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev LSC frames: 173, new LSC frames: 85
+Dropped LSC frames: 88
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 285
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev frames: 373, new frames: 197
+Dropped frames: 176
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 197
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev LSC frames: 173, new LSC frames: 124
+Dropped LSC frames: 49
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 324
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev frames: 373, new frames: 239
+Dropped frames: 134
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 239
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev LSC frames: 173, new LSC frames: 54
+Dropped LSC frames: 119
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 254
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.004  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 173
+High scene change frames: 200
+---------------------------------------------------
+Length of LSC frames: 173
+Length of HSC frames: 200
+---------------------------------------------------
+prev frames: 373, new frames: 123
+Dropped frames: 250
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 200
+    Low Scene Change frames: 173
+After Dropping: 
+    Final frames: 123
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 176
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 373
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 74
+Dropped LSC frames: 102
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 271
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 187
+Dropped frames: 186
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 187
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 123
+Dropped LSC frames: 53
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 320
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 248
+Dropped frames: 125
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 248
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 48
+Dropped LSC frames: 128
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 245
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.006  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 117
+Dropped frames: 256
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 117
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 176
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 373
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 90
+Dropped LSC frames: 86
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 287
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 179
+Dropped frames: 194
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 179
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 123
+Dropped LSC frames: 53
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 320
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 245
+Dropped frames: 128
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 245
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 66
+Dropped LSC frames: 110
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 263
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.008  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 104
+Dropped frames: 269
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 104
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 0 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 0 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 176
+Dropped LSC frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 0 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 373
+Dropped frames: 0
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 2 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 2 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 92
+Dropped LSC frames: 84
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 289
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 2 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 189
+Dropped frames: 184
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 189
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 3 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 3 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 120
+Dropped LSC frames: 56
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 317
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 3 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 268
+Dropped frames: 105
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 268
+---------------------------------------------------
+################################################################################
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 4 ALL_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 373
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 4 HSC_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev LSC frames: 176, new LSC frames: 47
+Dropped LSC frames: 129
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 244
+---------------------------------------------------
+Input Video: videos/input_video_3.mp4  FPS: 45  Threshold: 0.01  Channel: 4 NONE_ENCODED
+---------------------------------------------------
+Total frames: 373
+Low scene change frames: 176
+High scene change frames: 197
+---------------------------------------------------
+Length of LSC frames: 176
+Length of HSC frames: 197
+---------------------------------------------------
+prev frames: 373, new frames: 112
+Dropped frames: 261
+---------------------------------------------------
+Total frames: 373
+Before Dropping: 
+    High Scene Change frames: 197
+    Low Scene Change frames: 176
+After Dropping: 
+    Final frames: 112
+---------------------------------------------------
