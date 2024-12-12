@@ -23,3 +23,6 @@ python3 output.py <input filename>
 # HSC-Encoding Algorithm
 The 'videos' directory contains videos. If we need to run the HSC-Encoding script, upload the video into the 'videos' directory and run the sim_video.py.
 Note: The main() function might need to be modified.
+
+## Acknowledgements
+- This project incorporates code from the [LT-code](https://github.com/anrosent/LT-code), licensed under the [MIT License](https://opensource.org/licenses/MIT). The code is included in the folder `LTcode`.
