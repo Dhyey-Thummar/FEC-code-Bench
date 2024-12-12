@@ -3,3 +3,10 @@
 
 # pycache
 __pycache__/
+
+# All jpegs
+video-application/all_frames/*
+video-application/lsc_frames/*
+video-application/hsc_frames/*
+video-application/final_frames/*
+video-application/test_frames/*
